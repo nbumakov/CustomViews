@@ -1,0 +1,16 @@
+<resources>
+    <declare-styleable name="CurrencyView">
+        <attr name="value" format="float"/>
+        <attr name="currency" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="usd" value="1"/>
+            <enum name="eur" value="2"/>
+            <enum name="rur" value="3"/>
+        </attr>
+        <attr name="dynamic" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="up" value="1"/>
+            <enum name="down" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
